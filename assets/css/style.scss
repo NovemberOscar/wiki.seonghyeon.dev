@@ -2,6 +2,8 @@
 ---
 
 @import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
 
 a {
   color: #3300ff;
@@ -48,8 +50,8 @@ h3,
 h4,
 h5,
 blockquote {
-  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida,
-    "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-family: 'Lora', 'Nanum Myeongjo', serif;
+  font-weight: bold;
 }
 
 .wikilink:before {
